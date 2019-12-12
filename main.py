@@ -69,9 +69,7 @@ for leo in moons:
 states = []
 trials = 1
 states.append(str(moons))
-print(states)
 update()
-print(states)
 while not(str(moons) in states):
     update()
     trials+=1
