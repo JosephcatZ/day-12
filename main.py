@@ -71,7 +71,9 @@ trials = 1
 states.append(str(moons))
 update()
 while not(str(moons) in states):
+    states.append(str(moons))
     update()
+
     trials+=1
 
 print("Trials til' repetition:",trials)
